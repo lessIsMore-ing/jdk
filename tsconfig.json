@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "outDir": "build",
+    "baseUrl": "./src",
+    // "rootDir": ".",
+    "moduleResolution": "node",
+    "target": "ES5"
+  },
+  "include": ["src/**/*", "templates/react-ts"],
+  "exclude": ["templates/**/*"]
+}
