@@ -1,4 +1,4 @@
-#!/usr/bin/env Node
+#!/usr/bin/env node
 
 import chalk from 'chalk'
 import parse from 'yargs-parser'

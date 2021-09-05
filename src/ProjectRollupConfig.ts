@@ -3,7 +3,7 @@ import postcss from 'rollup-plugin-postcss'
 import typescript from '@rollup/plugin-typescript'
 import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
-import url from 'rollup-plugin-url'
+import url from '@rollup/plugin-url'
 import replace from '@rollup/plugin-replace'
 import { InputOptions, OutputOptions, RollupWatchOptions } from 'rollup'
 

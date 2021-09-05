@@ -57,7 +57,6 @@ export default class ProjectCreator {
     const tplBase = path.resolve(__dirname, '../templates/react-ts')
 		const envs: Record<string, string> = {}
 		envs["PROJECT_NAME"] = project.getName()
-		console.log(tplBase, '<====tplbase=======')
 		
     this.recursiveCopy(tplBase, project.getCwd(), envs)
   }
